@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  lalitapp1:
+    image: lalitapp:v1
+    build: .
+    container_name: lalitc11
+    ports:
+      - "7777:80"
